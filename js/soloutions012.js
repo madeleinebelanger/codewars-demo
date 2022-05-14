@@ -10,4 +10,8 @@ else{
 return "drink whisky"}
 
 
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 803d04d76b9640b4dd6b65ac380a9d5c951c5fa1
