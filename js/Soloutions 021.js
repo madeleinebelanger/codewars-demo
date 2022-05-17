@@ -10,4 +10,4 @@ else{ return false}
 };
 
 
-console.log(Sleigh("Santa Claus", "Ho Ho Ho!"))
+console.log(Sleigh("Santa Claus", "Ho Ho Ho!")) 
