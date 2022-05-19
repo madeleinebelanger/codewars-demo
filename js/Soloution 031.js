@@ -6,7 +6,7 @@ if(check=== "!") {
 return newArr.join('')}
 else{return string.join('')}
 
-
+ 
 }
 
 console.log( remove("madie"))
