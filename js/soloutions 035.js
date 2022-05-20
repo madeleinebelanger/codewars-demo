@@ -6,4 +6,5 @@ else{ return "Congratulations! You're going to have a daughter."}
 
 }
 
+
 console.log( chromosomeCheck('XX'))
