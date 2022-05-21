@@ -2,7 +2,7 @@ function calculateTip(amount, rating) {
 
 rating=rating.toLowerCase()
 if(rating==="terrible"){
-return amount
+return 0
 }
 if(rating==="poor"){
 return  Math.ceil(amount*.05)
@@ -19,7 +19,7 @@ return  Math.ceil(amount*.2)
 else{return "Rating not recognised"}
 
 }
-console.log(calculateTip(29.95,"good"))
+console.log(calculateTip(10,"good"))
 
 // Terrible: tip 0%
 // Poor: tip 5%
