@@ -12,4 +12,4 @@ return newArr
 
 }
 
-console.log( flip('L', [1, 4, 5, 3, 5]))
+console.log( flip('L', [1, 4, 5, 3, 5])) 
