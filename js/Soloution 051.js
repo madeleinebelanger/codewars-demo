@@ -7,4 +7,4 @@ let answer= emptyArr.sort((a,b) => a-b)
 return answer[0]
 }
 
-(console.log( findShort("bitcoin take over the world maybe who knows perhaps")))
+(console.log( findShort("bitcoin take over the world maybe who knows perhaps"))) 
