@@ -7,4 +7,4 @@ return `Hello, ${name}! Welcome to ${city}, ${state}!`
 
 }
 
-console.log(sayHello(['John', 'Smith'], 'Phoenix', 'Arizona'))s
+console.log(sayHello(['John', 'Smith'], 'Phoenix', 'Arizona'))sñ
