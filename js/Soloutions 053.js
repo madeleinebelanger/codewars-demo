@@ -1,16 +1,4 @@
-// function getSum( a,b )
-// {
-// let emptyArr= []
-// for(let i=a; i<=b; i++)
-//     {emptyArr.push(i)}
-// let answer= emptyArr.reduce((x,y)=> x+y)
-// return answer
 
-
-
-// }
-
-// console.log( getSum(0,1))
 
 function getSum( a,b )
 {
