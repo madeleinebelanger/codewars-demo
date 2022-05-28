@@ -1,12 +1,13 @@
 function isIsogram(str){
-str=str.split('')
-let answer= str.map( item=> item.toLowerCase())
-let findDuplicates= answer.filter((a,b) => str.indexOf(a) != b)
-
+let newString= str.toLowerCase()
+newString=newString.split('')
+let findDuplicates= newString.filter((a,b) => newString.indexOf(a) != b)
 if(findDuplicates.length>0){return false}
 else{return true}
+
+
 }
 
 
 
-console.log( isIsogram("Dermatoglyphics"))
+console.log( isIsogram(""))
