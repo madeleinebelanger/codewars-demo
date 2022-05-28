@@ -6,4 +6,4 @@ return numbers[0]+numbers[1]
 
 }
 
-console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]))
+console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77])) 
