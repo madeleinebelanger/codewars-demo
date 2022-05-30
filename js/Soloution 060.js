@@ -38,3 +38,7 @@ else if(leftSide=rightSide){
 
 console.log(alphabetWar("lwopsvfjdjzdrm"))
 
+<<<<<<< HEAD
+=======
+console.log( SeriesSum()) 
+>>>>>>> 92cf4d961af7ad458e636337a0a1901ecb292422
