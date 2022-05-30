@@ -11,4 +11,4 @@ return answer.toFixed(2)
 
 
 
-console.log( SeriesSum())
+console.log( SeriesSum()) 
