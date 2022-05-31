@@ -5,10 +5,7 @@ fight=fight.split('')
 
 
 for(let i=0; i<fight.length; i++){
-if( fight[i]==='w') { leftSide.push(4)}
-else if ( fight[i]==='p') { leftSide.push( 3)}
-else if ( fight[i]==='b') { leftSide.push( 2)}
-else if ( fight[i]==='s') { leftSide.push( 1)}
+console.log(fight[i])
 }
  
 
