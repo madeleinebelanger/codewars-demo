@@ -14,4 +14,4 @@ return "odd"}
 }
 
 
-console.log(oddOrEven([1023, 2, 2]))
+console.log(oddOrEven([1023, 2, 2])) 
