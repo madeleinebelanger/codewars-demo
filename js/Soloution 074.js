@@ -1,17 +1,8 @@
-function getDivisorsCnt(n){
-let emptyArr=[]
-for(let i=1; i<=n; i++)
-{emptyArr.push(i)}
-
-emptyArr
-
-let answer = emptyArr.map(num=> n% num ==0)
-let finalAnswer= answer.filter(tf=> tf==true)
-return finalAnswer.length
-answer
-
-
-
+function solution(nums){
+nums=nums.sort((a,b)=> a-b)
+console.log(nums)
+  
+  
 }
 
-console.log(getDivisorsCnt(28))
+solution([null])
