@@ -2,7 +2,7 @@ function whoIsPaying(name){
 let emptyArr=[]
 let nameLength= name.length
 if(nameLength<= 2 || nameLength==0){
-emptyArr.push(name)
+emptyArr.push(name) 
 }
 
 else{
