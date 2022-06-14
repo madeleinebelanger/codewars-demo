@@ -1,11 +1,17 @@
-var greet = function(name) {
-name=name.toLowerCase().split('')
-let name2= name[0].toUpperCase() 
-let name3= name.shift()
-let name4= name2+name.join('')
-return `Hello ${name4}!`
+function isLockNessMonster(s) {
+let test= s.includes("tree fiddy")
+let test2= s.includes("3.50")
+let test3= s.includes("three fifty")
 
-};
+if(test==true || test2==true || test3 ==true){
+return true
+}
+
+else{
+return false
+}
 
 
-console.log(greet("MADELEINE"))
+}
+
+console.log(isLockNessMonster("Your girlscout cookies are ready to ship. Your total comes to three fifty"))
