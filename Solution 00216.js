@@ -1,7 +1,4 @@
-function twoDecimalPlaces(n) {
-return Number(n.toFixed(2))
-
-
+function remove (string) {
+  //coding and coding....
+  return '';  
 }
-
-console.log(twoDecimalPlaces(15.203481203942))
