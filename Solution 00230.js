@@ -1,9 +1,14 @@
-function printerError(s) {
-let keptWord= s.split('').length
-let filterOut= s.replace(/[a-m]/gi,'').split('').length
-return `${filterOut}/${keptWord}`
+function isPangram(string){
+let alphabet = "abcdefghijklmnopqrstuvwxyz"
+string=string.replace(/[^a-z]/gi,'').toLowerCase().split('')
+let newSet= [...new Set(string)].sort().join('')
+return newSet===alphabet?true:false 
+
+
+
+
+
 
 }
 
-
-console.log(printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"))
+console.log( isPangram("The quick brown fox jumps over the lazy dog."))
