@@ -11,4 +11,5 @@ return correctPipe
 }
 
 
-console.log(pipeFix([-1,4]))
+console.log(pipeFix([-1,4]
+))
