@@ -1,14 +1,13 @@
-function multiply(number){
-if(number<0){
-let index= number.toString().length-1
-return number* Math.pow(5,index)
-}
-
-let index= number.toString().length
-return number* Math.pow(5,index)
-
-
+function count (string) {  
+let duplicateChars={}
+string=string.split('')
+for(let num of string){
+duplicateChars[num]=(duplicateChars[num]||0)+1
 
 }
 
-console.log(multiply(-3))
+return duplicateChars
+}
+
+
+console.log(count('Butters best day ever!'))
