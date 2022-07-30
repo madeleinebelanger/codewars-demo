@@ -1,9 +1,21 @@
-function feast(beast, dish) {
-beast=beast.split('')
-dish=dish.split('')
-return (beast[0]===dish[0]) && (beast[beast.length-1]===dish[dish.length-1]) ? true:false 
+// function greet(myName, yourName){
+//   return "Hello " + yourName + ", my name is " + myName;
+// }
 
 
+// console.log(greet("Josh", "Madeleine"))
+
+class Person{
+constructor(myName){
+this.myName=myName
 }
 
-console.log(feast("great blue heron", "garlic naan"))
+greet(personsName){
+return `Hello ${personsName}, my name is ${this.myName}`
+
+
+}}
+
+let madeleine= new Person("Madeleine")
+madeleine
+console.log( madeleine.greet("josh"))
